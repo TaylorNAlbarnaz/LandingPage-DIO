@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700;900&display=swap');
 
+:root {
+    --blue: #31A8DD;
+  }
+
 * {
     padding: 0;
     margin: 0;
@@ -14,7 +18,7 @@ body {
 }
 
 header.banner, #course-content, #transform-world, #professional-challenges {
-    border-bottom: 1px solid #31A8DD;
+    border-bottom: 1px solid var(--blue);
 }
 
 header.banner {
@@ -43,7 +47,7 @@ header.banner {
     text-transform: uppercase;
     font-size: 40px;
     line-height: 47px;
-    background: linear-gradient(180deg, #33A8DB 0%, #1472B7 100%);
+    background: linear-gradient(180deg, var(--blue) 0%, #1472B7 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -91,7 +95,7 @@ header.banner {
     font-weight: bold;
     font-size: 2rem;
     letter-spacing: 4px;
-    color: #33A8DB;
+    color: var(--blue);
     text-transform: uppercase;
 }
 
@@ -103,7 +107,7 @@ header.banner {
 .module {
     width: 535px;
     background: #252525;
-    border: 1px solid #33A8DB;
+    border: 1px solid var(--blue);
     box-shadow: inset -2px 6px 4px rgba(0, 0, 0, 0.4);
     border-radius: 57px;
     text-align: center;
@@ -177,5 +181,5 @@ footer img {
 footer a {
     text-decoration: none;
     font-weight: bold;
-    color: #33A8DB;
+    color: var(--blue);
 }
