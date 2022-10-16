@@ -13,7 +13,7 @@ body {
     color: white;
 }
 
-header.banner, #course-content, #transform-world {
+header.banner, #course-content, #transform-world, #professional-challenges {
     border-bottom: 1px solid #31A8DD;
 }
 
@@ -128,4 +128,32 @@ header.banner {
     margin-left: 198px;
     text-transform: lowercase;
     text-shadow: 3px 2px #33a8db;
+}
+
+#professional-challenges {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#professional-challenges h2 {
+    font-weight: bold;
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: #31A8DD;
+    letter-spacing: 4px;
+    width: 746px;
+    margin-top: 70px;
+}
+
+#professional-challenges img {
+    width: 659px;
+    height: 429px;
+}
+
+#professional-challenges p {
+    width: 792px;
+    margin: 30px 0 100px;
 }
