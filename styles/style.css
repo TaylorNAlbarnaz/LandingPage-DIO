@@ -45,7 +45,7 @@ header.banner {
 .banner-content h1 {
     font-weight: 900;
     text-transform: uppercase;
-    font-size: 40px;
+    font-size: 2.5rem;
     line-height: 47px;
     background: linear-gradient(180deg, var(--blue) 0%, #1472B7 100%);
     -webkit-background-clip: text;
@@ -121,7 +121,7 @@ header.banner {
     width: 100%;
     height: 360px;
     font-weight: 900;
-    font-size: 40px;
+    font-size: 2.5rem;
     background-image: url("../assets/images/woman-code.png");
     background-size: cover;
     background-position: center;
