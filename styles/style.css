@@ -1,5 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700;900&display=swap');
+
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+header.banner {
+    display: flex;
+    width: 100%;
+    height: 605px;
+    justify-content: center;
+    text-align: center;
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.6) 0%, rgba(49, 168, 221, 0) 100%), url("../assets/images/banner.png");
+}
+
+.banner-content {
+    display: flex;
+    height: 90%;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.banner-content h1 {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 47px;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #33A8DB 0%, #1472B7 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
 }
