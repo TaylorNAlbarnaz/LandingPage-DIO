@@ -61,7 +61,7 @@ header.banner {
 .banner-content button {
     font-weight: bold;
     text-transform: uppercase;
-    color: #31A8DD;
+    color: var(--blue);
     width: 320px;
     height: 55px;
     font-size: 1rem;
@@ -70,6 +70,13 @@ header.banner {
     border: 2px solid currentColor;
     background: transparent;
     margin-top: 10px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.banner-content button:hover {
+    color: white;
+    background: #FFFFFF0F;
 }
 
 .logo {
@@ -113,6 +120,14 @@ header.banner {
     text-align: center;
     padding: 10px 0;
     margin-top: 24px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.module:hover {
+    color: #DDDDDD;
+    background: #FFFFFF0F;
+    border-color: white;
 }
 
 #transform-world {
@@ -146,7 +161,7 @@ header.banner {
     font-weight: bold;
     font-size: 2rem;
     text-transform: uppercase;
-    color: #31A8DD;
+    color: var(--blue);
     letter-spacing: 4px;
     width: 746px;
     margin-top: 70px;
