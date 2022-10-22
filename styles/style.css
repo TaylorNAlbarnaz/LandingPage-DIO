@@ -87,6 +87,7 @@ header.banner {
     border-radius: 50%;
     justify-content: center;
     align-items: center;
+    user-select: none;
 }
 
 #course-content {
@@ -170,6 +171,7 @@ header.banner {
 #professional-challenges img {
     width: 659px;
     height: 429px;
+    user-select: none;
 }
 
 #professional-challenges p {
